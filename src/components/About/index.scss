@@ -1,0 +1,27 @@
+.imagePerfile {
+  overflow: hidden;
+  margin-top: 10%;
+  margin-left: calc(60% - 100px);
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  border: 1px solid #ff7d;
+  background: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0px lightyellow;
+  border-radius: 10%;
+  z-index: 10;
+}
+
+@media screen and (max-width: 1200px) {
+  .imagePerfile {
+    margin-top: 3%;
+    margin-left: calc(35% - 100px);
+    height: 380px;
+    width: 350px;
+  }
+}

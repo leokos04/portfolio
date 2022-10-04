@@ -1,0 +1,26 @@
+h2 {
+  color: #ffd700;
+}
+.imageEdit {
+  top: 15%;
+  right: calc(16% - 100px);
+  width: 600px;
+  margin-top: 50px;
+  position: absolute;
+}
+.iconoC {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 100px;
+}
+@media screen and (max-width: 1200px) {
+  .imageEdit {
+    width: 400px;
+    top: 80%;
+    left: calc(28% - 100px);
+  }
+  .iconoC {
+    
+    font-size: 80px;
+  }
+}
